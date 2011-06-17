@@ -4,9 +4,25 @@
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
     >
-<TextView  
-    android:layout_width="fill_parent" 
-    android:layout_height="wrap_content" 
-    android:text="@string/hello"
-    />
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+<ImageButton 
+	android:id="@+id/ScreenTest"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	/>
+<ImageButton 
+	android:id="@+id/QuickTest"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	/>
+<ImageButton 
+	android:id="@+id/NormalTest"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	/>		
+</LinearLayout>
 </LinearLayout>
