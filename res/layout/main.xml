@@ -11,18 +11,21 @@
     >
 <ImageButton 
 	android:id="@+id/ScreenTest"
-	android:layout_width="fill_parent"
+	android:layout_width="wrap_content"
 	android:layout_height="wrap_content"
+	android:src="@drawable/screentest"
 	/>
 <ImageButton 
 	android:id="@+id/QuickTest"
-	android:layout_width="fill_parent"
+	android:layout_width="wrap_content"
 	android:layout_height="wrap_content"
+	android:src="@drawable/normaltest"
 	/>
 <ImageButton 
 	android:id="@+id/NormalTest"
-	android:layout_width="fill_parent"
+	android:layout_width="wrap_content"
 	android:layout_height="wrap_content"
+	android:src="@drawable/record"
 	/>		
 </LinearLayout>
 </LinearLayout>
