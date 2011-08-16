@@ -8,4 +8,53 @@
 		
 		android:layout_width="fill_parent"
 		android:layout_height="fill_parent"  />
+		
+<RelativeLayout android:id="@+id/dot"
+			  xmlns:android="http://schemas.android.com/apk/res/android"
+    		  android:orientation="horizontal"
+    		  android:layout_width="fill_parent"
+    		  android:layout_height="fill_parent"	>
+    <ImageView android:id="@+id/initdot1" android:layout_margin="10px"
+				 android:src="@drawable/initdot1"
+					
+			     android:layout_width="wrap_content"
+		         android:layout_height="wrap_content"
+	/>
+    <ImageView android:id="@+id/initdot2" android:layout_margin="10px"
+				 android:src="@drawable/initdot1"	
+				 android:layout_alignTop="@id/initdot1"
+				 android:layout_toRightOf="@id/initdot1"
+			     android:layout_width="wrap_content"
+		         android:layout_height="wrap_content"
+	/>
+	<ImageView android:id="@+id/initdot3" android:layout_margin="10px"
+				 android:src="@drawable/initdot1"	
+				 android:layout_alignTop="@id/initdot1"
+				 android:layout_toRightOf="@id/initdot2"
+			     android:layout_width="wrap_content"
+		         android:layout_height="wrap_content"
+	/>
+     <ImageView android:id="@+id/initdot4" android:layout_margin="10px"
+				 android:src="@drawable/initdot1"	
+				 android:layout_alignTop="@id/initdot1"
+				 android:layout_toRightOf="@id/initdot3"
+			     android:layout_width="wrap_content"
+		         android:layout_height="wrap_content"
+	/>
+    <ImageView android:id="@+id/initdot5" android:layout_margin="10px"
+				 android:src="@drawable/initdot1"
+				 android:layout_alignTop="@id/initdot1"
+				 android:layout_toRightOf="@id/initdot4"	
+			     android:layout_width="wrap_content"
+		         android:layout_height="wrap_content"
+	/>
+	<ImageView android:id="@+id/initdot6" android:layout_margin="10px"
+				 android:src="@drawable/initdot1"	
+				 android:layout_alignTop="@id/initdot1"
+				 android:layout_toRightOf="@id/initdot5"
+			     android:layout_width="wrap_content"
+		         android:layout_height="wrap_content"
+	/>   
+    </RelativeLayout>		
+	
 </FrameLayout>
